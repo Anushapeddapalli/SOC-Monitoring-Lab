@@ -267,26 +267,6 @@ The following screenshots demonstrate the implemented SOC monitoring and detecti
 
 ![OpenCanary Alerts](screenshots/opencanary-alerts.png)
 
-### 🚨 Wazuh Alerts
-
-![Wazuh Alerts](screenshots/wazuh-alerts.png)
-
-### 🔍 Sysmon Events
-
-![Sysmon Events](screenshots/sysmon-events.png)
-
-### 📁 File Integrity Monitoring
-
-![FIM Events](screenshots/fim-events.png)
-
-### ⚡ PowerShell Events
-
-![PowerShell Events](screenshots/powershell-events.png)
-
-### 🛡️ Windows Defender Events
-
-![Windows Defender Events](screenshots/defender-events.png)
-
 ---
 
 ## 🔄 Detection Flow
