@@ -1,0 +1,24 @@
+<group name="opencanary,">
+
+  <rule id="100501" level="10">
+    <decoded_as>json</decoded_as>
+    <field name="dst_port">2222</field>
+    <description>OpenCanary: SSH connection detected</description>
+    <group>opencanary,ssh,authentication,</group>
+  </rule>
+
+  <rule id="100502" level="10">
+    <decoded_as>json</decoded_as>
+    <field name="dst_port">2121</field>
+    <description>OpenCanary: FTP login attempt detected</description>
+    <group>opencanary,ftp,authentication,</group>
+  </rule>
+
+  <rule id="100503" level="10">
+    <decoded_as>json</decoded_as>
+    <field name="dst_port">2323</field>
+    <description>OpenCanary: Telnet connection detected</description>
+    <group>opencanary,telnet,network,</group>
+  </rule>
+
+</group>
