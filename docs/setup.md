@@ -4,7 +4,7 @@ This guide explains how to reproduce the SOC monitoring lab using VirtualBox, Ub
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before starting, prepare:
 
