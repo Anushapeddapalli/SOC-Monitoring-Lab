@@ -1,4 +1,4 @@
-# 🔐 SOC Monitoring & Threat Detection Lab
+# SOC Monitoring & Threat Detection Lab
 
 A hands-on **Security Operations Center (SOC) monitoring and threat detection lab** built using **Wazuh, OpenCanary, Sysmon, and Windows security telemetry** in an isolated virtualized environment.
 
@@ -6,7 +6,7 @@ The project demonstrates how security events from a honeypot and Windows endpoin
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project simulates a small SOC environment where:
 
@@ -23,7 +23,7 @@ This project simulates a small SOC environment where:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
                          ┌───────────────────┐
@@ -63,7 +63,7 @@ This project simulates a small SOC environment where:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -78,9 +78,9 @@ This project simulates a small SOC environment where:
 
 ---
 
-## 🔎 Monitoring Components
+## Monitoring Components
 
-### 🪤 OpenCanary
+### OpenCanary
 
 OpenCanary was configured as a honeypot with simulated services:
 
@@ -93,7 +93,7 @@ Interactions with these services generate OpenCanary logs, which are collected b
 
 ---
 
-### 🖥️ Windows Endpoint
+### Windows Endpoint
 
 The Windows endpoint sends security telemetry to the Wazuh Manager through the Wazuh Agent.
 
@@ -108,7 +108,7 @@ Collected sources include:
 
 ---
 
-### 🔍 Sysmon
+### Sysmon
 
 Sysmon provides detailed Windows telemetry.
 
@@ -120,7 +120,7 @@ The project specifically verified telemetry including:
 
 ---
 
-### 📁 File Integrity Monitoring
+### File Integrity Monitoring
 
 Wazuh FIM monitors selected Windows directories for file changes.
 
@@ -132,7 +132,7 @@ Verified FIM activity includes:
 
 ---
 
-### ⚡ PowerShell Monitoring
+### PowerShell Monitoring
 
 PowerShell Script Block Logging was enabled to collect PowerShell operational events.
 
@@ -140,7 +140,7 @@ PowerShell Script Block Logging was enabled to collect PowerShell operational ev
 
 ---
 
-### 🛡️ Windows Defender
+### Windows Defender
 
 Windows Defender operational events are collected by the Wazuh Agent.
 
@@ -148,7 +148,7 @@ A Defender Quick Scan was performed, and the resulting telemetry was successfull
 
 ---
 
-## 🚨 Alerts vs Archives
+## Alerts vs Archives
 
 An important part of this project is the distinction between **alerts** and **archives**.
 
@@ -185,7 +185,7 @@ This allows the SOC analyst to use:
 
 ---
 
-## 📊 SOC Dashboard
+## SOC Dashboard
 
 The project includes a custom Wazuh SOC dashboard containing:
 
@@ -207,7 +207,7 @@ The dashboard also supports filtering for investigation, including agent and Ope
 
 ---
 
-## 🧪 Attack & Detection Testing
+## Attack & Detection Testing
 
 Security testing was performed from Kali Linux against the isolated lab environment.
 
@@ -231,7 +231,7 @@ Controlled testing was performed for:
 
 ---
 
-## 🚨 Custom Wazuh Detection Rules
+## Custom Wazuh Detection Rules
 
 Custom Wazuh rules were created to detect OpenCanary activity and generate centralized security alerts.
 
@@ -246,30 +246,30 @@ These rules allow OpenCanary events to become Wazuh alerts for centralized SOC m
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 The following screenshots demonstrate the implemented SOC monitoring and detection workflow:
 
 
-### 📊 SOC Dashboard
+### SOC Dashboard
 
 ![SOC Dashboard](screenshots/soc-dashboard.png)
 
-### 🪤 OpenCanary Dashboard
+### OpenCanary Dashboard
 
 ![OpenCanary Dashboard](screenshots/opencanary-dashboard.png)
 
-### 🖥️ Windows Security Dashboard
+### Windows Security Dashboard
 
 ![Windows Dashboard](screenshots/windows-dashboard.png)
 
-### 🚨 OpenCanary Alerts
+### OpenCanary Alerts
 
 ![OpenCanary Alerts](screenshots/opencanary-alerts.png)
 
 ---
 
-## 🔄 Detection Flow
+## Detection Flow
 
 ### OpenCanary Detection
 
@@ -321,7 +321,7 @@ Telemetry                    Alerts
 
 ---
 
-## 🔐 Security & Lab Disclaimer
+## Security & Lab Disclaimer
 
 This project was developed in an isolated virtualized lab environment for educational and defensive security monitoring purposes.
 
@@ -330,10 +330,5 @@ Testing was performed only against systems controlled by the project author.
 No unauthorized systems or services were targeted.
 
 ---
-
-
-## 👩‍💻 Author
-
-**Anusha Peddapalli**
 
 Cybersecurity | SOC | Threat Detection | Security Monitoring
