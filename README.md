@@ -244,28 +244,7 @@ Custom Wazuh rules were created to detect OpenCanary activity and generate centr
 
 These rules allow OpenCanary events to become Wazuh alerts for centralized SOC monitoring.
 
----
 
-## Screenshots
-
-The following screenshots demonstrate the implemented SOC monitoring and detection workflow:
-
-
-### SOC Dashboard
-
-![SOC Dashboard](screenshots/soc-dashboard.png)
-
-### OpenCanary Dashboard
-
-![OpenCanary Dashboard](screenshots/opencanary-dashboard.png)
-
-### Windows Security Dashboard
-
-![Windows Dashboard](screenshots/windows-dashboard.png)
-
-### OpenCanary Alerts
-
-![OpenCanary Alerts](screenshots/opencanary-alerts.png)
 
 ---
 
