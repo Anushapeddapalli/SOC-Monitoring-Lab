@@ -1,4 +1,4 @@
-# 🚨 Detection & Investigation
+# Detection & Investigation
 
 This document contains the Wazuh detection queries, filters, and investigation searches used to analyze security telemetry in the lab.
 
@@ -439,7 +439,7 @@ Common fields used during investigation include:
 
 ---
 
-## 🔐 Notes
+## Notes
 
 The queries documented here correspond to telemetry and detections implemented in this lab.
 
